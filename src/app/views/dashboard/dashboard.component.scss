@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.name {
+.left-content {
   position: absolute;
   width: 592px;
   height: 100px;
@@ -48,8 +48,20 @@
   left: 983.5px;
   top: -192px;
 
-  background: #000000;
+/*  background: #000000;*/
+  background:black no-repeat;
+  background-size: contain;
   transform: rotate(9.67deg);
+  overflow: hidden;
+
+  .photo-web {
+    position: relative;
+    right: 30vw;
+    width: 1802.3px;
+    height: 1373.99px;
+    background:url("../../../assets/images/web.jpeg") no-repeat;
+    background-size: cover;
+  }
 }
 
 .nextButton {
@@ -57,14 +69,4 @@
   right: 100px;
   bottom: 0px;
   color: red;
-}
-
-.photo {
-  position: absolute;
-  width: 640px;
-  height: 512px;
-  left: 1025px;
-  top: 145px;
-
-  background:url("../../../assets/images/shanksCrew.png");
 }
