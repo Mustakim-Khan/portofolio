@@ -22,6 +22,79 @@
   text-align: start;
 }
 
+.rightContent {
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  top: 30vh;
+  right: 10vw;
+  color: white;
+
+  .content-item {
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    p {
+      padding-top: 20px;
+      padding-left: 75px;
+    }
+  }
+  .edu-section {
+    left: 0px;
+    top: 0px;
+  }
+
+  .time-section {
+    right: 0px;
+    top: 0px;
+  }
+
+  .rhythm-section {
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .location-section {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .icon-edu, .icon-hourglass, .icon-location, .icon-date{
+    font-size: 100px;
+  }
+  /*  .icon-edu, .icon-hourglass, .icon-location, .icon-date{
+      font-size: 100px;
+      width: auto;
+      height: auto;
+      position: absolute;
+    }*/
+
+/*  .icon-edu {
+    left: 0px;
+    top: 0px;
+  }*/
+
+/*  .icon-date {
+    right: 0px;
+    top: 0px;
+  }
+
+  .icon-hourglass {
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .icon-location {
+    left: 0px;
+    bottom: 0px;
+  }*/
+}
+
+
 .prevButton {
   position: absolute;
   right: 500px;
