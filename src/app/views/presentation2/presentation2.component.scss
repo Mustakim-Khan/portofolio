@@ -1,0 +1,110 @@
+.info {
+  position: absolute;
+  width: 1802.3px;
+  height: 1373.99px;
+  left: 983.5px;
+  top: -192px;
+
+  background: #000000;
+  transform: rotate(9.67deg);
+}
+
+.left-content {
+  position: absolute;
+  width: 720px;
+  height: 100px;
+  top: 5vh;
+
+  /*  font-weight: normal;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: start;*/
+}
+
+.rightContent {
+  width: 42vw;
+  height: 100vh;
+  position: relative;
+  top: 0vh;
+  left: 55vw;
+
+  .picture {
+    position: absolute;
+  }
+
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 25% 10%;
+    right: 3vw;
+    top: 1vh;
+  }
+
+  .c-language-pic {
+    width: 300px;
+    height: 300px;
+    left: 0vw;
+    top: 30vh;
+  }
+
+  .headache-pic {
+    width: 300px;
+    height: 300px;
+    right: 2vw;
+    bottom: 5vh;
+  }
+
+  .content-item {
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    p {
+      padding-top: 20px;
+      padding-left: 75px;
+    }
+  }
+
+/*  .edu-section {
+    left: 0px;
+    top: 0px;
+  }
+
+  .time-section {
+    right: 0px;
+    top: 0px;
+  }
+
+  .rhythm-section {
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .location-section {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .icon-edu, .icon-hourglass, .icon-location, .icon-date{
+    font-size: 100px;
+  }*/
+
+}
+
+
+.prevButton {
+  position: absolute;
+  right: 500px;
+  bottom: 0px;
+  color: red;
+}
+
+.nextButton {
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+  color: red;
+}

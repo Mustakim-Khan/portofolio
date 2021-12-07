@@ -10,11 +10,18 @@ body {
   font-style: normal;
   overflow: hidden;
 
+}
+
+.left-content {
   //Font
   font-weight: normal;
   font-size: 35px;
   line-height: 60px;
   text-align: start;
+
+  left: 8vw;
+  top: 30vh;
+  line-height: 70px;
 }
 
 * {
