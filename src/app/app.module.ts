@@ -10,6 +10,7 @@ import { PresentationComponent } from './views/presentation/presentation.compone
 import { EducationComponent } from './views/education/education.component';
 import { ProjectsComponent } from './views/projects/projects.component';
 import { ContactComponent } from './views/contact/contact.component';
+import {AngularEmojisModule} from "angular-emojis";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactComponent } from './views/contact/contact.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    AngularEmojisModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

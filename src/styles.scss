@@ -1,8 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Raleway, "Helvetica Neue", sans-serif; font-style: normal; overflow: hidden }
-* { margin: 0; padding: 0; box-sizing: border-box }
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Raleway, "Helvetica Neue", sans-serif;
+  font-style: normal;
+  overflow: hidden;
+
+  //Font
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: start;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
 .material-icons-outlined,
 .material-icons.material-icons--outlined,
 .material-icons-two-tone,
