@@ -1,0 +1,29 @@
+main {
+  width: 55%;
+  margin: 10% auto auto;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar{
+  background-color: transparent;
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      margin: 0 20px;
+    }
+
+    a, a:visited {
+      text-decoration: none;
+      font-size: 16px;
+    }
+    a:hover {
+      color: #43AC9C;
+    }
+  }
+}
