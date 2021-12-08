@@ -32,40 +32,28 @@
     position: absolute;
   }
 
-  .profile-pic {
-    width: 250px;
+  .st-ex-pic {
+    width: 300px;
     height: 250px;
-    border-radius: 25% 10%;
-    right: 3vw;
+    border-radius: 10% 10%;
+    right: 0vw;
     top: 1vh;
   }
 
-  .c-language-pic {
+  .upec-pic {
     width: 300px;
-    height: 300px;
+    height: 250px;
+    border-radius: 10% 10%;
     left: 0vw;
     top: 30vh;
   }
 
-  .headache-pic {
+  .esgi-pic {
     width: 300px;
-    height: 300px;
+    height: 250px;
+    border-radius: 10% 10%;
     right: 2vw;
     bottom: 5vh;
-  }
-
-  .content-item {
-    width: 220px;
-    height: 120px;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    p {
-      padding-top: 20px;
-      padding-left: 75px;
-    }
   }
 
 /*  .edu-section {
