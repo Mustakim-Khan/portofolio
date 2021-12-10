@@ -9,12 +9,19 @@ import {MatIconModule} from "@angular/material/icon";
 import { MainPageComponent } from './views/main-page/main-page.component';
 import { AboutComponent } from './views/about/about.component';
 import {MatButtonModule} from "@angular/material/button";
+import { ParcoursComponent } from './views/parcours/parcours.component';
+import {MatTabsModule} from "@angular/material/tabs";
+import { ProjectsComponent } from './views/projects/projects.component';
+import { ExperienceComponent } from './views/experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
     AboutComponent,
+    ParcoursComponent,
+    ProjectsComponent,
+    ExperienceComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,6 +30,7 @@ import {MatButtonModule} from "@angular/material/button";
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

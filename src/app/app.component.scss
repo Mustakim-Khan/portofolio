@@ -1,6 +1,6 @@
 main {
   width: 55%;
-  margin: 10% auto auto;
+  margin: auto;
 }
 
 .spacer {
@@ -8,11 +8,18 @@ main {
 }
 
 mat-toolbar{
-  background-color: transparent;
+  background-color: rgba(10, 25, 47, 0.85);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 10px 30px -10px rgba(9, 22, 38, 0.85);
 
-  ol {
+
+  ul {
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
 
     li {
       margin: 0 20px;
@@ -26,4 +33,14 @@ mat-toolbar{
       color: #43AC9C;
     }
   }
+}
+
+section {
+  padding: 200px 0px;
+  margin: 0px auto;
+  max-width: 1000px;
+}
+
+#parcours {
+  max-width: 100%;
 }

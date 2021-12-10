@@ -3,7 +3,7 @@
       <mat-icon>menu</mat-icon>
     </button>-->
   <span class="spacer"></span>
-  <ol>
+  <ul>
     <p>
       <a href="#about" class="white-text">
         <li>A propos</li>
@@ -11,8 +11,8 @@
     </p>
 
     <p>
-      <a href="#" class="white-text">
-        <li>Experience</li>
+      <a href="#parcours" class="white-text">
+        <li>Parcours</li>
       </a>
     </p>
 
@@ -26,9 +26,19 @@
       </a>
     </p>
 
-  </ol>
+  </ul>
 </mat-toolbar>
+
 <main>
-  <app-main-page></app-main-page>
-  <app-about id="about"></app-about>g
+  <section id="about">
+    <app-main-page></app-main-page>
+  </section>
+
+  <section id="parcours">
+    <app-parcours></app-parcours>
+  </section>
+
+  <section id="bla">
+    <p>BLA</p>
+  </section>
 </main>
