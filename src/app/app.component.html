@@ -5,7 +5,7 @@
   <span class="spacer"></span>
   <ul>
     <p>
-      <a href="#" class="white-text" (click)="scrollToTop()">
+      <a href="#" class="white-text">
         <li>À propos</li>
       </a>
     </p>
@@ -35,8 +35,21 @@
   </ul>
 </mat-toolbar>
 
+<div id="left-info">
+  <ul>
+    <li><a href=""><img src="assets/images/github.svg"></a></li>
+    <li><a href=""><img src="assets/images/linkedin.svg"></a></li>
+  </ul>
+</div>
+
+<div id="right-info">
+  <div id="right-info-content">
+    <a href="#">pro.mustakim.khan@gmail.com</a>
+  </div>
+</div>
+
 <main>
-  <section id="about">
+  <section id="about" data-aos="fade-down-left" data-aos-duration="1500">
     <app-main-page></app-main-page>
   </section>
 

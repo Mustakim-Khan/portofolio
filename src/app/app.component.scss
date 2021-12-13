@@ -7,7 +7,7 @@ main {
   flex: 1 1 auto;
 }
 
-mat-toolbar{
+mat-toolbar {
   background-color: rgba(10, 25, 47, 0.85);
   position: -webkit-sticky;
   position: sticky;
@@ -30,6 +30,7 @@ mat-toolbar{
       text-decoration: none;
       font-size: 16px;
     }
+
     a:hover {
       color: #43AC9C;
     }
@@ -49,4 +50,69 @@ section {
 #contact {
   max-width: 100%;
   text-align: center;
+}
+
+#left-info {
+  flex-direction: column;
+  left: 2%;
+  position: fixed;
+  bottom: 0;
+  width: 40px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+
+    li {
+      padding: 10px;
+    }
+
+    :last-of-type {
+      margin-bottom: 20px;
+    }
+  }
+
+  ::after {
+    content: "";
+    width: 1px;
+    height: 90px;
+    background-color: #8892B0;
+    margin: 0px auto;
+  }
+}
+
+
+#right-info {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+  color: #8892B0;
+
+  div {
+    a {
+      color: #8892B0;
+      text-decoration: none;
+      margin: 20px auto;
+      padding: 10px;
+      letter-spacing: 0.1em;
+      -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+      font-size: 12px;
+    }
+  }
+
+  #right-info-content::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #8892B0;
+  }
 }
