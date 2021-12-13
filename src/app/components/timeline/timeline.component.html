@@ -1,0 +1,25 @@
+<div class="timeline">
+  <div *ngFor="let item of value" class="timeline-event">
+    <div class="timeline-point-track-container">
+      <div class="timeline-point" [ngClass]="item?.status === 'R' ? 'heighlight' : '' "></div>
+      <div class="timeline-track" [ngClass]="item?.status === 'R' ? 'heighlight' : '' "></div>
+    </div>
+    <div class="timeline-content">
+      <span class="blue-text">
+        {{ item.company }}
+      </span>
+
+      <span class="grey-text">
+        {{ item.position}}
+      </span>
+
+      <span class="timeline-date white-text">
+        {{item.date}}
+      </span>
+
+      <p class="white-text">
+        {{item.description}}
+      </p>
+    </div>
+  </div>
+</div>

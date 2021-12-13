@@ -14,6 +14,8 @@ import {MatTabsModule} from "@angular/material/tabs";
 import { ProjectsComponent } from './views/projects/projects.component';
 import { ExperienceComponent } from './views/experience/experience.component';
 import {MatGridListModule} from "@angular/material/grid-list";
+import {MatStepperModule} from "@angular/material/stepper";
+import { TimelineComponent } from './components/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
     ParcoursComponent,
     ProjectsComponent,
     ExperienceComponent,
+    TimelineComponent,
   ],
     imports: [
         BrowserModule,
@@ -33,6 +36,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
         MatButtonModule,
         MatTabsModule,
         MatGridListModule,
+        MatStepperModule,
     ],
   providers: [],
   bootstrap: [AppComponent]
