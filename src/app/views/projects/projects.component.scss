@@ -1,0 +1,31 @@
+mat-grid-list {
+  max-width: 90%;
+  margin: auto;
+
+  mat-grid-tile {
+    background-color: #112240;
+    transition: transform .2s;
+
+    p {
+      padding-top: 20px;
+    }
+  }
+
+  mat-grid-tile:hover {
+    transform: scale(1.03);
+  }
+
+  mat-grid-tile-header {
+    color: #43AC9C;
+    font-size: 22px;
+  }
+
+  mat-grid-tile-footer {
+    background-color: transparent;
+    justify-content: end;
+  }
+}
+
+a:hover {
+  filter: invert(59%) sepia(45%) saturate(498%) hue-rotate(121deg) brightness(91%) contrast(85%);
+}

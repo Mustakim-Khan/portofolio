@@ -13,6 +13,7 @@ import { ParcoursComponent } from './views/parcours/parcours.component';
 import {MatTabsModule} from "@angular/material/tabs";
 import { ProjectsComponent } from './views/projects/projects.component';
 import { ExperienceComponent } from './views/experience/experience.component';
+import {MatGridListModule} from "@angular/material/grid-list";
 
 @NgModule({
   declarations: [
@@ -23,15 +24,16 @@ import { ExperienceComponent } from './views/experience/experience.component';
     ProjectsComponent,
     ExperienceComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatButtonModule,
-    MatTabsModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatButtonModule,
+        MatTabsModule,
+        MatGridListModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
