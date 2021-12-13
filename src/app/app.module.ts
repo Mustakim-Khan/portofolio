@@ -16,6 +16,7 @@ import { ExperienceComponent } from './views/experience/experience.component';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatStepperModule} from "@angular/material/stepper";
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { TimelineComponent } from './components/timeline/timeline.component';
     ProjectsComponent,
     ExperienceComponent,
     TimelineComponent,
+    ContactComponent,
   ],
     imports: [
         BrowserModule,

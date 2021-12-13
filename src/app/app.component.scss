@@ -9,9 +9,10 @@ main {
 
 mat-toolbar{
   background-color: rgba(10, 25, 47, 0.85);
-  position: sticky;
   position: -webkit-sticky;
-  top: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   backdrop-filter: blur(5px);
   box-shadow: 0 10px 30px -10px rgba(9, 22, 38, 0.85);
 
@@ -43,4 +44,9 @@ section {
 
 #parcours {
   max-width: 100%;
+}
+
+#contact {
+  max-width: 100%;
+  text-align: center;
 }
